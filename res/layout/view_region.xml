@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/expand_tab_eara_height"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/choosearea_bg_mid"
+    android:orientation="horizontal" >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/no_color"
+            android:paddingLeft="4dp"
+            android:layout_weight="1"
+            android:scrollbars="none"
+            android:dividerHeight="1px"
+            android:divider="#dcdcdc"
+            android:background="@color/white" >
+        </ListView>
+        
+        <ListView
+            android:id="@+id/listView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/no_color"
+            android:paddingRight="4dp"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:background="@color/choose_eara_item_press_color" >
+        </ListView>
+
+</merge>
